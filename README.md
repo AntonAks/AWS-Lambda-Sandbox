@@ -14,11 +14,14 @@ zip -r requests_layer.zip ./python
 ```
 
 ### 2. Create environment variables
+#### Create .env file with 4 variables
 
+```text
 API_KEY= `binance api key`
 API_SECRET= `binance api secret`
 BOT_TOKEN= `telegram bot api key`
 CHATS_LIST= `(comma separated ids)`
+```
 
 ### 3. Initialize & Apply Terraform
 
